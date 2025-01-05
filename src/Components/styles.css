@@ -1,0 +1,22 @@
+/* styles.css */
+
+/* Configura la cuadrícula de 3x3 para las celdas */
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 34px); /* Tres columnas de 34px */
+  grid-template-rows: repeat(3, 34px); /* Tres filas de 34px */
+  gap: 2px; /* Espacio entre los cuadros */
+  justify-items: center; /* Centra los cuadros en la cuadrícula */
+}
+
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  text-align: center;
+}
